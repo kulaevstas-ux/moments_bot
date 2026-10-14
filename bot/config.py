@@ -34,7 +34,7 @@ MIN_PHOTOS = 1
 MAX_PHOTOS = 10
 
 # Цена за одно фото: 1–5 фото и 6–10 фото
-PRICE_UP_TO_5 = 50
+PRICE_UP_TO_5 = 35
 PRICE_FROM_6 = 30
 
 # Стили раскрасок

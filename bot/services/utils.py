@@ -150,7 +150,7 @@ def set_user_generated_images(user_id: int, images: List[str]):
     update_user_data(user_id, {"generated_images": images})
 
 def price_per_photo(photo_count: int) -> int:
-    """Цена одной страницы: 50 ₽ до 5 фото, 30 ₽ с 6 фото"""
+    """Цена одной страницы: 35 ₽ до 5 фото, 30 ₽ с 6 фото"""
     from bot.config import PRICE_FROM_6, PRICE_UP_TO_5
     if photo_count <= 5:
         return PRICE_UP_TO_5

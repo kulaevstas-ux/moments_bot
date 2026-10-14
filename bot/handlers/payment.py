@@ -162,7 +162,7 @@ async def open_payment(message: Message, user_id: int, state: FSMContext):
         "Примерное время создания одной раскраски 30 секунд.\n\n"
         "<b>Акция</b>\n"
         "Чем больше фото, тем меньше цена!\n"
-        "- от 1 до 5 фото: 50 ₽ за страницу\n"
+        "- от 1 до 5 фото: 35 ₽ за страницу\n"
         "- от 6 до 10 фото: 30 ₽ за страницу"
     )
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
